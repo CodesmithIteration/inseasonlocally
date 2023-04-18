@@ -1,6 +1,5 @@
 const path = require('path');
 const express = require('express');
-// const { user } = require('pg/lib/defaults.js');
 const userController = require('./controllers/userController.js');
 const reviewController = require('./controllers/reviewController.js');
 const produceController = require('./controllers/produceController.js');
